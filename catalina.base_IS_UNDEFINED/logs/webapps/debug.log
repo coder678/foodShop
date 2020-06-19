@@ -1,0 +1,10 @@
+2020-06-12 19:42:16.790 [main] DEBUG c.s.f.dao.split.DynamicDataSourceInterceptor - 设置方法[com.school.foodShop.dao.HeadLineDao.queryHeadLine] use [slave] Strategy, SqlCommanType [SELECT]..
+2020-06-12 19:42:16.798 [main] DEBUG c.s.foodShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
+2020-06-12 19:42:16.814 [main] DEBUG com.school.foodShop.dao.HeadLineDao.queryHeadLine - ==>  Preparing: SELECT line_id, line_name, line_link, line_img, priority, enable_status, create_time, last_edit_time FROM tb_head_line ORDER BY priority DESC 
+2020-06-12 19:42:16.858 [main] DEBUG com.school.foodShop.dao.HeadLineDao.queryHeadLine - ==> Parameters: 
+2020-06-12 19:42:16.874 [main] DEBUG com.school.foodShop.dao.HeadLineDao.queryHeadLine - <==      Total: 0
+2020-06-12 19:42:29.663 [main] DEBUG c.s.f.dao.split.DynamicDataSourceInterceptor - 设置方法[com.school.foodShop.dao.HeadLineDao.queryHeadLine] use [slave] Strategy, SqlCommanType [SELECT]..
+2020-06-12 19:42:29.666 [main] DEBUG c.s.foodShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
+2020-06-12 19:42:29.681 [main] DEBUG com.school.foodShop.dao.HeadLineDao.queryHeadLine - ==>  Preparing: SELECT line_id, line_name, line_link, line_img, priority, enable_status, create_time, last_edit_time FROM tb_head_line ORDER BY priority DESC 
+2020-06-12 19:42:29.725 [main] DEBUG com.school.foodShop.dao.HeadLineDao.queryHeadLine - ==> Parameters: 
+2020-06-12 19:42:29.741 [main] DEBUG com.school.foodShop.dao.HeadLineDao.queryHeadLine - <==      Total: 0
